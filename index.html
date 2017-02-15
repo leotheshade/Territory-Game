@@ -83,13 +83,17 @@
       <rect x="800" y="0" width="120" height="500" opacity="0" onclick="forestClick()"/>
       //forest cover
       //workers
-      <circle id="worker1" cx="410" cy="320" r="10" fill="blue" onclick="worker1Click()">
-        <animate id="worker1moveX" attributeName="cx" from="0" to="0" begin="indefinite" dur="indefinite"/>
+      <!-- <circle id="worker1" cx="410" cy="320" r="10" fill="blue" onclick="worker1Click()"> -->
+        <!-- <animate id="worker1moveX" attributeName="cx" from="0" to="0" begin="indefinite" dur="indefinite"/> -->
 
-        <animate id="worker1moveY" attributeName="cy" from="0" to="0" begin="indefinite" dur="indefinite"/>
-      </circle>
+        <!-- <animate id="worker1moveY" attributeName="cy" from="0" to="0" begin="indefinite" dur="indefinite"/> -->
+      <!-- </circle> -->
 
-          <image id="worker1" width="60" height="50" x="150" y="100" xlink:href="file:///C:/Users/Student/Desktop/miner%20concept%20art%20no%203.png" />
+          <image id="worker1" width="60" height="50" x="390" y="300" onclick="worker1Click()" xlink:href="file:///C:/Users/Student/Desktop/miner%20concept%20art%20no%203.png" >
+          <animate id="worker1moveX" attributeName="x" from="0" to="0" begin="indefinite" dur="indefinite"/>
+
+          <animate id="worker1moveY" attributeName="y" from="0" to="0" begin="indefinite" dur="indefinite"/>
+</image>
 
       <circle id="worker2" cx="440" cy="320" r="10" fill="blue" onclick="worker2Click()">
         <animate id="worker2moveX" attributeName="cx" from="0" to="0" begin="indefinite" dur="indefinite"/>

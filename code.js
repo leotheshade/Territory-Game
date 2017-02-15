@@ -515,8 +515,8 @@ function send(){
     document.getElementById("worker4moveY").setAttribute("dur", 20)
     document.getElementById("worker4moveX").beginElement()
     document.getElementById("worker4moveY").beginElement()
-    document.getElementById("worker4").setAttribute("cx", 800)
-    document.getElementById("worker4").setAttribute("cy", 340)
+    document.getElementById("worker4").setAttribute("x", 800)
+    document.getElementById("worker4").setAttribute("y", 340)
     wagonWorker4 = 0
     worker4position = "moving"
      var startMine1 = setTimeout(worker4cutting, 20000)
@@ -534,8 +534,8 @@ function send(){
     document.getElementById("worker1moveY").setAttribute("dur", 10)
     document.getElementById("worker1moveX").beginElement()
     document.getElementById("worker1moveY").beginElement()
-    document.getElementById("worker1").setAttribute("cx", 800)
-    document.getElementById("worker1").setAttribute("cy", 250)
+    document.getElementById("worker1").setAttribute("x", 800)
+    document.getElementById("worker1").setAttribute("y", 250)
     wagonWorker1 = 0
     worker1position = "moving"
    var startMine1 = setTimeout(worker1cutting, 10000)
@@ -627,8 +627,8 @@ function send(){
     document.getElementById("worker1moveY").setAttribute("dur", 20)
     document.getElementById("worker1moveX").beginElement()
     document.getElementById("worker1moveY").beginElement()
-    document.getElementById("worker1").setAttribute("cx", 40)
-    document.getElementById("worker1").setAttribute("cy", 450)
+    document.getElementById("worker1").setAttribute("x", 40)
+    document.getElementById("worker1").setAttribute("y", 450)
     wagonWorker1 = 0
     worker1position = "moving"
     var startMine1 = setTimeout(worker1mining, 20000)
