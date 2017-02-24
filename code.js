@@ -271,17 +271,17 @@ function send(){
 
   if(castleWorker1 == 1 && worker1position == "forest"){
 
-      document.getElementById("worker1moveX").setAttribute("from", 800)
-    document.getElementById("worker1moveX").setAttribute("to", 410)
+      document.getElementById("worker1moveX").setAttribute("from", 740)
+    document.getElementById("worker1moveX").setAttribute("to", 390)
     document.getElementById("worker1moveX").setAttribute("dur", 10)
 
-    document.getElementById("worker1moveY").setAttribute("from", 250)
-    document.getElementById("worker1moveY").setAttribute("to", 320)
+    document.getElementById("worker1moveY").setAttribute("from", 300)
+    document.getElementById("worker1moveY").setAttribute("to", 300)
     document.getElementById("worker1moveY").setAttribute("dur", 10)
     document.getElementById("worker1moveX").beginElement()
     document.getElementById("worker1moveY").beginElement()
-    document.getElementById("worker1").setAttribute("cx", 410)
-    document.getElementById("worker1").setAttribute("cy", 320)
+    document.getElementById("worker1").setAttribute("x", 390)
+    document.getElementById("worker1").setAttribute("y", 300)
     castleWorker1 = 0
     worker1position = "moving"
     var startMine1 = setTimeout(worker1castle, 10000)
@@ -525,17 +525,17 @@ function send(){
   //normal
    if(forestWorker1 == 1 && worker1position == "castle"){
 
-      document.getElementById("worker1moveX").setAttribute("from", 410)
-    document.getElementById("worker1moveX").setAttribute("to", 800)
+      document.getElementById("worker1moveX").setAttribute("from", 390)
+    document.getElementById("worker1moveX").setAttribute("to", 740)
     document.getElementById("worker1moveX").setAttribute("dur", 10)
 
-    document.getElementById("worker1moveY").setAttribute("from", 320)
-    document.getElementById("worker1moveY").setAttribute("to", 250)
+    document.getElementById("worker1moveY").setAttribute("from", 300)
+    document.getElementById("worker1moveY").setAttribute("to", 300)
     document.getElementById("worker1moveY").setAttribute("dur", 10)
     document.getElementById("worker1moveX").beginElement()
     document.getElementById("worker1moveY").beginElement()
-    document.getElementById("worker1").setAttribute("x", 800)
-    document.getElementById("worker1").setAttribute("y", 250)
+    document.getElementById("worker1").setAttribute("x", 740)
+    document.getElementById("worker1").setAttribute("y", 300)
     wagonWorker1 = 0
     worker1position = "moving"
    var startMine1 = setTimeout(worker1cutting, 10000)
